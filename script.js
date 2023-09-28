@@ -124,8 +124,10 @@ saludar("Mar"); // imprime el saludo
 Es importante declarar nuestras variables para evitar conflictos futuros
 */
 
+
 console.log(miVariable); // no da error, pero imprime "undefined"
 var miVariable = 10;
+
 //Scope = alcance, hace referencia al alcance de una variable en nuestro codigo JS.
 /*
 * Global : quiere decir que se puede utilizar o trabajar con una variable dentro de cualquier parte del codigo.
@@ -189,6 +191,15 @@ const resta = (a,b) => a - b;
 
 */
 console.log(resta(5,3));
+
+
+
+
+
+
+
+
+
 
 
 
